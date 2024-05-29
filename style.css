@@ -1,0 +1,106 @@
+*{  padding: 0;
+    margin: 0;
+}
+header,section,footer{
+    padding: 30px 50px;
+    margin: 0px;
+}
+footer a{
+    color:black;
+    text-decoration:none;
+    border: 3px solid white;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+footer a:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+header{
+    background-color: skyblue;
+    color:white;
+    height: 80px;
+    width:100%;
+    background-image: url(images/SVG/资源\ 2.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100px;
+}
+header h1{
+    font-size: 60px;
+    color:#fef7e6;
+}
+.one{
+    color:white;
+    height:85vh;
+    background-image:url("images/man1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one h1{
+    font-size :200px;
+    color:white;
+}
+.one h2{
+    font-size :150px;
+    color:white;
+}
+.two{
+    display: flex;
+}
+.man{
+    background-color: skyblue;
+    color:white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+footer{
+    background-color: skyblue;
+    color:white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.two{
+    padding: 0%;
+}
+
+.two img{
+    width: 60%;
+}
+.info{
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info h1{
+    font-size: 100px;
+}
+.info h2{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.info p{
+    text-align: center;
+    font-size: 50px;
+}
+.three{
+    background-color: skyblue;
+    color:white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
